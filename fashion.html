@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)file:///C:/Users/USER/Downloads/awolopeferanmi%20basic%20project.html.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion</title>
+  </head>
+  <body>
+    <style>
+       h1 {
+            text-align: center;
+            color: black;
+        }
+        h2{
+            text-align: center;
+            padding: 15px;
+            margin: 15px;
+            color: #7587DC;
+        }
+        
+        img{
+          display: block;
+          margin:0 auto 0 auto;
+          border-radius: 15px;
+          max-width: 100%;
+        }
+    p{
+      line-height: 1.5;
+      font-size: 18px;
+      margin: 20px;
+      color: black;
+    }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 15px 60px;
+      }
+      a{
+        text-decoration: none;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+      }
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+button{
+  display: block;
+  margin: 10px auto 10px;
+  font-size: 20px;
+  padding: 10px 15px;
+border-radius: 30px;
+background-color:#7587DC;  
+color: black;
+transition: all 200ms ease-in-out;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0);
+}
+button:hover{
+  cursor: pointer;
+  background-color:white;
+  color:#7587DC;
+}
+.footer{
+  font-size: 15px;
+  text-align: center;
+
+}
+</style>
+    <div class="container">
+    <h1>Hernnieshaven_hh</h1>
+    <h2>we are the best in street fashion.</h2>
+    <img src="./fashion_files/Photos_from_London_Fashion_Week_Fall_2014_Street_Style_-_E!_Online.jpeg" alt="street fashion" width="200">
+    <p>
+      Street style is fashion that is considered to have emerged not from
+      studios, but from the grassroots. Street fashion is generally associated
+      with youth culture, and is most often seen in major urban centers.
+      Magazines and newspapers commonly feature candid photographs of
+      individuals wearing urban, stylish clothing.
+    </p>
+    <a href="https://en.wikipedia.org/wiki/Street_style" target="_blank">
+      📖Read on wikipedia.
+    </a>
+<br>
+    <button>Apply to fashion school</button>
+  <p class="footer">
+    this page was built by 
+    <a href="https://www.instagram.com/hernnieshaven_hh/" target="_blank"> awolope feranmi</a>
+  </p>
+  </div>
+  <script>
+    function applyfor(){
+      let name=prompt("what is your name?")
+      let email=prompt("what is your email")
+      let age= prompt ("how old are you?")
+      if (age>= 18)
+     alert("Hi " + name + ", we will be in touch. In the maintime stay fashionable👊👊");
+     else 
+     alert("Hi " + name + ", sorry you can't join Hernnie's haven.")
+    }
+    let applybutton = document.querySelector("button")
+     applybutton.addEventListener("click", applyfor);
+  </script>
+
+
+</body></html>

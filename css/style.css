@@ -1,0 +1,8 @@
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.link1 {
+  border: 1 solid black;
+}
